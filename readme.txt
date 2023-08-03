@@ -1,0 +1,4 @@
+This is a simple code to get a history of the last thirty days of the habits managed by the Habitica application.
+Habitica is great for managing habits, daily tasks, and general to-dos, but it doesn't provide a history so we can see how we're doing.
+The script generates a spreadsheet in .xlsx format with a table listing user habits in the first column and the next thirty columns represent the last thirty days. For each habit or daily activity, the cells in the columns for the dates they were marked as done will be colored green.
+To use it, make sure to fill with your correct Habitica credentials, User ID and API Token, and the File Path where you want to save the spreadsheet.
